@@ -50,12 +50,18 @@ but a formal artefact in which the mathematical content has been replaced by `Tr
 
 ## Repository contents
 
-| Path | Language | Content |
-|---|---|---|
-| `docs/supplement-en.md` / `.docx` | English | The supplement (this repo's main text) |
-| `docs/supplement-zh.md` / `.docx` | 中文 | The same supplement in Chinese |
-| `docs/audit-zh.md` / `.docx` | 中文 | A longer standalone audit with the full evidence chain and an appendix of 22 evidence rows |
-| `LICENSE` | — | CC BY 4.0 |
+Each document exists in three forms. **`.md` and `.pdf` open and render in the browser; `.docx` can only be downloaded.**
+
+| Document | Read in browser | Print / download | Language |
+|---|---|---|---|
+| The supplement (main text) | [`supplement-en.md`](docs/supplement-en.md) · [`supplement-en.pdf`](docs/supplement-en.pdf) | [`supplement-en.docx`](docs/supplement-en.docx) | English |
+| The same supplement | [`supplement-zh.md`](docs/supplement-zh.md) · [`supplement-zh.pdf`](docs/supplement-zh.pdf) | [`supplement-zh.docx`](docs/supplement-zh.docx) | 中文 |
+| Longer standalone audit (22 evidence rows) | [`audit-zh.md`](docs/audit-zh.md) · [`audit-zh.pdf`](docs/audit-zh.pdf) | [`audit-zh.docx`](docs/audit-zh.docx) | 中文 |
+| License text | [`LICENSE`](LICENSE) | — | — |
+
+If you read only one file, read [`docs/supplement-en.md`](docs/supplement-en.md) — or
+[`docs/supplement-zh.md`](docs/supplement-zh.md) if you prefer Chinese. The `.docx` files are for
+printing and for readers who need a paginated document.
 
 ## Selected evidence
 
