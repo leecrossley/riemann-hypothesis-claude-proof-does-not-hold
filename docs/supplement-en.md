@@ -164,6 +164,8 @@ The original says that `BernsteinUnitaryProductIrreducible.lean:74` belongs to a
 
 In other words: `OpenLiteratureStatements` has only three fields (two copies of the same `One.M.Row`, plus `RecTExists`, `:215–218`), and of the sixty "literature theorems" only those 2 places extract anything from it. The other 58 fields are filled by another batch of in-repository `*_holds` theorems — **not literature, but yet more assumption slots from the same repository** (for instance `GlobalArtinReciprocityHolds.lean:5`, whose proof body is a single line: `:= CompanionTheory.FamInh.globalArtin`).
 
+Crossley’s conductor-one proof uses `galoisLocalGlobalStrong_recParameter` for both row fields and `recTExists` for the local Langlands input. It passes this triple to `published_results_eigen`. Sutherland records the independent kernel checks of Alpöge’s original proof. [Conductor-one construction](https://github.com/leecrossley/prime-window-rh-criterion/blob/8f8ce11af908bb98df5c2adc2c8a72856fc2b8cd/results/geometric-window-descent/lean/SecondSeedRH.lean#L9-L16), [The Crossley Criteria, §1](https://doi.org/10.5281/zenodo.24466908) and [verification record](https://math.mit.edu/~drew/grh/).
+
 **(4) "The real version is right next door" is even stronger than the original says.** The same field name occurs in eight places in the repository, and the `UnusedSlot72` version is **not the only one but one of four**:
 
 | Type | Where |
